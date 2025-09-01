@@ -3,13 +3,12 @@
 Application setup:
 
 1- Install PyQt6
-Run the following command on the terminal: pip install PyQt6
+Run the following command on the terminal: pip install PyQt6.
 For more information, visit: https://pypi.org/project/PyQt6/
 
 2- Install PyMySQL
 Run the following command on the terminal: python3 -m pip install PyMySQL
-Note: this is an optional package, but the GUI won't run without it
-For more information: https://pypi.org/project/pymysql/
+(this is an optional package, but the GUI won't run without it https://pypi.org/project/pymysql/)
 
 3- Update the database connection password
 In the connection.py file, the connection to the database is made. For this connection to be successful, it needs some information. Most of that information is already filled out, but the password has to change because it's different on every machine. All you need to do is type your Workbench password in line 7, and assign the self.password variable a string containing your password.
